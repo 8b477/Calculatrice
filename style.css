@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 72.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: blanchedalmond;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20% auto;
+    height: 520px;
+    width: 400px;
+    border: solid black 3px;
+    border-radius: 4%;
+    background-color: gray;
+
+}
+
+#ecran{
+    height: 25%;
+    width: 100%;
+    margin: 1%;
+    background-color: cadetblue;
+    opacity: 0.8;
+    border: solid 7px;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 100px;
+}
+
+.button{
+    height: 10%;
+    width: 20%;
+    font-size: 2rem;
+    border-radius: 30%;
+    margin: 1%;
+    -webkit-box-shadow: 0 10px 27px 5px rgba(0,0,0,0.8);
+    box-shadow: 0 10px 27px 5px rgba(0,0,0,0.8);
+}
+
+#egal{
+    flex-basis: 42%;
+    -webkit-box-shadow: 0 10px 27px 5px rgba(0,0,0,0.8);
+    box-shadow: 0 10px 27px 5px rgba(0,0,0,0.8);
+}
+
+#title{
+    width: 40%;
+    position: absolute;
+    top: 7%;
+    left: 29%;
+    background-color: black;
+    border: cadetblue 2px dashed;
+    -webkit-box-shadow: 5px 10px 50px 39px #69FFF8;
+    box-shadow: 5px 10px 50px 39px #69FFF8;
+}
+
+h1{
+    font-size: 5rem;
+    margin: 3%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Comic Sans MS", 'sans-serif';
+}
