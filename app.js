@@ -8,12 +8,12 @@ document.addEventListener('keydown', (e) =>{
 })
 
 
-document.addEventListener('click', (e) =>{
+document.addEventListener('click',function (e) {
     const valeur = e.target.dataset.key;
     calculer(valeur);
 })
 
-const calculer = (valeur) => {
+const calculer = function (valeur){
     if(listKeyCode.includes(valeur)){
         console.log(listKeyCode)
         switch (valeur){
@@ -31,6 +31,6 @@ const calculer = (valeur) => {
         }
     }
 }
-window.addEventListener('error',(e) =>{
+window.addEventListener('error',function (e){
     alert('Erreur de calcul : ' + e.message);
 })
